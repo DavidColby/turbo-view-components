@@ -2,8 +2,9 @@
 
 <h1>Spy</h1>
 
+<%= turbo_stream_from "spies" %>
 <div id="spies">
-  <%= render @spies %>
+  <%= render(SpyComponent.with_collection(@spies)) %>
 </div>
 
 <%= link_to "New spy", new_spy_path %>
