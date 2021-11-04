@@ -1,0 +1,2 @@
+class Spy < ApplicationRecord
+end

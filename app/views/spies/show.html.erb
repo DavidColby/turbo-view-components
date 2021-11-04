@@ -1,0 +1,10 @@
+<p id="notice"><%= notice %></p>
+
+<%= render @spy %>
+
+<div>
+  <%= link_to "Edit this spy", edit_spy_path(@spy) %> |
+  <%= link_to "Back to spies", spies_path %>
+
+  <%= button_to "Destroy this spy", spy_path(@spy), method: :delete %>
+</div>

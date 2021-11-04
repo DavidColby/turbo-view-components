@@ -1,0 +1,2 @@
+module SpiesHelper
+end
