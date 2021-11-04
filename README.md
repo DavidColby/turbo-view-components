@@ -1,24 +1,15 @@
-# README
+This repo demonstrates using turbo-rails and view components together in a turbo stream model broadcast. The code in this repo is intended to accompany the tutorial originally [published on my blog](https://www.colby.so/posts/rendering-view-components-with-turbo-stream-broadcasts).
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To follow along with the tutorial, work from the main branch.
 
-Things you may want to cover:
+The final, working implementation lives in the broadcast-spies branch.
+## Project setup
 
-* Ruby version
+After cloning this repo:
+```
+bundle install
+rails db:create && db:migrate
+```
+Start the server with `rails s`
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+After setup, visit http://localhost:3000/spies to get started.
